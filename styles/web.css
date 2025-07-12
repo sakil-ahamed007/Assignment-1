@@ -273,7 +273,6 @@ textarea {
   border-radius: 50%;
   margin-bottom: 10px;
 }
-
 .feedback-card:hover {
   transform: translateY(-10px);
 }
@@ -294,7 +293,8 @@ textarea {
   margin: 10px 0;
 }
 
-footer{  
+footer{
+    
     max-width: 1440px;
     margin: 0 auto;
     
@@ -314,7 +314,6 @@ footer{
   color: #333;
   margin-bottom: 20px;
 }
-
 .footer-logo:hover{
     color:#150fc2;
 }
