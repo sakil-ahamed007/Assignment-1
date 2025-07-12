@@ -173,4 +173,58 @@ main{
 .stat-box p {
   font-size: 16px;
 }
+.contact-section {
+  display: flex;
+  justify-content:space-around;
+  padding:150px 0;
+  background-color: #ffffff;
+}
+
+.contact-left {
+  flex: 1;
+  color: #007a43;
+  display: flex;
+  align-items:left;
+  align-items: center;
+}
+
+
+.contact-left h2 {
+  font-size: 50px;
+}
+.contact-left h2:hover{
+    color: #1a2bc6;
+}
+
+.contact-right {
+  flex: 1;
+  
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input,
+textarea {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-btn {
+  background-color: #007a43;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: #1a2bc6;
+}
 
