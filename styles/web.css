@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f5f7fa;
+  
   line-height: 1.6;
   color: #333;
 
@@ -47,6 +47,12 @@ body {
     color: rgb(0, 0, 0);
     background-color: #48f7a8;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
  
 .banner-content {
   max-width: 1440px;
@@ -83,15 +89,17 @@ body {
 }
 .action-section {
   display: flex;
-  align-items: center;
-  padding: 150px;
-  gap: 30px;
-  background-color: #fff;
   justify-content:space-between;
+  padding: 130px 0;
+  
+  
 }
 
 .action-left {
   flex: 1;
+  max-width: 550px;
+  padding: 30px 30px;
+
 }
 
 .action-left h2 {
@@ -110,7 +118,7 @@ body {
   color: #ffffff;
   padding: 14px 30px;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
 }
@@ -127,5 +135,42 @@ body {
 .action-right img {
   max-width: 100%;
   border-radius: 15px;
+}
+
+.users-section {
+  text-align: center;
+  background-color: #f0f4f8;
+  padding: 50px 30px;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.users-stats {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 200px;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  color: #007a43;
+}
+
+.stat-box p {
+  font-size: 16px;
 }
 
