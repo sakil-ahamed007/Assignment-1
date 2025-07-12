@@ -1,20 +1,27 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Arial', sans-serif;
   
   line-height: 1.6;
   color: #333;
 
-  .hero {
+   .hero {  
+  max-width: 1440px;
+  width: 100%;
+  height: 546px;
+  margin: 0 auto;
   background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
   background-size: cover;
-  background-position: center;
-  height: 100vh;
-
-  position: relative;
-  display: flex;
+  background-position:center;
+  display:flex;
   flex-direction: column;
-  justify-content: space-between;
-}
+  justify-content:space-between;
+  
+   }
   
 .navbar{
     display: flex;
@@ -49,18 +56,12 @@ body {
 }
 
 main{
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 
 }
  
 .banner-content {
-  max-width: 1440px;
-  height: 600px;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 .banner-content h1 {
@@ -78,10 +79,11 @@ main{
   background-color: #1a2bc6;
   font-weight:bold;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #ffffff;
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .focus-btn:hover{
     color: black;
@@ -193,7 +195,7 @@ main{
   font-size: 50px;
 }
 .contact-left h2:hover{
-    color: #1a2bc6;
+    color: #4E47FF;
 }
 
 .contact-right {
@@ -225,6 +227,111 @@ textarea {
   cursor: pointer;
 }
 .contact-btn:hover{
-    background-color: #1a2bc6;
+    background-color: #4E47FF;
 }
+
+
+
+.feedback-section {
+ 
+  background-color: #f5f7fa;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.feedback-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feedback-header .star-icon {
+  font-size: 36px;
+  color: #ffcc00;
+}
+
+.feedback-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.reviewer-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.feedback-card:hover {
+  transform: translateY(-10px);
+}
+
+.reviewer-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.reviewer-info span {
+  font-size: 14px;
+  color: #999;
+}
+
+.star-rating {
+  color: #ffcc00;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+footer{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.footer {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  background-color: #ffffff;
+  color: #0f0202;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+.footer-logo:hover{
+    color:#150fc2;
+}
+
+.footer-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav a {
+  color: #070101;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-nav a:hover {
+  color: #1510a7;
+}
+
 
